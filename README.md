@@ -1,4 +1,6 @@
 # Data Engineer Salary Prediction in 2024
+This project analyzes data engineer salaries and employment attributes for 2024. The dataset provides insights into salary trends, experience levels, employment types, and geographic variations in compensation. By applying data analysis and predictive modeling, the project aims to understand key factors affecting salaries and forecast potential salary trends for data engineering roles.
+
 ***About Dataset***
 
 This dataset provides insights into data engineer salaries and employment attributes for the year 2024. It includes information such as salary, job title, experience level, employment type, employee residence, remote work ratio, company location, and company size.
@@ -22,12 +24,23 @@ The dataset allows for analysis of salary trends, employment patterns, and geogr
 |company_size|The size of the company, small (S), medium (M), large (L)|
 Complete the following requirements:
 
-1. ***Explore the data*** and ***clean the data***. For example, remove abnormal instanaces and replace missing values.
+***Objectives***
 
-2. ***Study the correlation*** between 'salary' with other features.
-  
-4. ***Split the dataset*** (Training set : Test set = 8 : 2)
+- Analyze salary trends and geographic salary variations
 
-5. ***Train a logistic regression model*** to predict 'salary' based on the selected features (from the second step). ***Calculate the accuracy*** of the model.
+- Predict salaries based on employment attributes
 
-7. ***Train a KNN model*** to predict 'salary' based on the selected features.
+- Identify key factors influencing salary levels in data engineering
+
+***Technologies Used***
+
+- Python
+
+- Pandas, NumPy
+
+- Scikit-learn
+
+- Jupyter Notebook
+
+This project provides insights into data engineering compensation trends and explores predictive modeling approaches for salary estimation.
+
